@@ -19,9 +19,9 @@ A retro-styled UI component library inspired by the classic Nintendo Famicom aes
   - Alerts
   - Badges
   - Buttons
-  - Dropdowns
-  - Modals
-  - Tooltips
+  - Dropdowns (todo)
+  - Modals (todo)
+  - Tooltips (todo)
 
 
 ## Getting Started
