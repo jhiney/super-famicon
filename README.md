@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Famicom Style Guide
+
+A retro-styled UI component library inspired by the classic Nintendo Famicom aesthetic. Built with Next.js, Tailwind CSS, and a love for 8-bit nostalgia.
+
+![Famicom UI Preview](https://placehold.co/600x400/8b0000/e3c099?text=Famicom+UI+Preview)
+
+## Features
+
+- **Retro Aesthetic**: Authentic Famicom color palette (Deep Red, Gold, Black, White).
+- **Interactive Components**:
+  - D-Pad (Directional Pad)
+  - Action Buttons (A/B)
+  - Toggle Switches
+  - Retro Inputs
+- **Modern Tech**: Powered by React 19, Next.js 16, and Tailwind CSS v4.
+- **Fully Responsive**: Looks great on all devices, just like your favorite handhelds.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js 18+
+- npm, yarn, or pnpm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/style-guide-app.git
+   cd style-guide-app
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the component library in action.
+
+## Usage
+
+Import components into your Next.js app:
+
+```tsx
+import { Button } from '@/components/ui/Button';
+import { DPad } from '@/components/ui/DPad';
+
+export default function MyPage() {
+  return (
+    <div className="p-10 bg-[#e3c099]">
+      <DPad onUp={() => console.log('Up!')} />
+      <Button variant="A" onClick={() => console.log('A pressed!')} />
+    </div>
+  );
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
