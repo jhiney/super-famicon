@@ -12,8 +12,17 @@ A retro-styled UI component library inspired by the classic Nintendo Famicom aes
   - Action Buttons (A/B)
   - Toggle Switches
   - Retro Inputs
-- **Modern Tech**: Powered by React 19, Next.js 16, and Tailwind CSS v4.
-- **Fully Responsive**: Looks great on all devices, just like your favorite handhelds.
+
+
+- **Layout Components**:
+  - Cards
+  - Alerts
+  - Badges
+  - Buttons
+  - Dropdowns
+  - Modals
+  - Tooltips
+
 
 ## Getting Started
 
@@ -40,11 +49,9 @@ A retro-styled UI component library inspired by the classic Nintendo Famicom aes
    npm run dev
    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the component library in action.
+Open [http://localhost:3000](http://localhost:3000) to view the style guide.
 
 ## Usage
-
-Import components into your Next.js app:
 
 ```tsx
 import { Button } from '@/components/ui/Button';
