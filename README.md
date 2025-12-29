@@ -2,7 +2,7 @@
 
 A retro-styled UI component library inspired by the classic Nintendo Famicom aesthetic. Built with Next.js, Tailwind CSS, and a love for 8-bit nostalgia.
 
-![Famicom UI Preview](https://placehold.co/600x400/8b0000/e3c099?text=Famicom+UI+Preview)
+
 
 ## Features
 
